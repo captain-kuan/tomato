@@ -1,0 +1,26 @@
+<template>
+  <div>
+    <audio
+      id="audio-long-break"
+      ref="audio-long-break"
+      :src="'./static/audio/alert-long-break.mp3'"
+    ></audio>
+    <audio
+      id="audio-short-break"
+      ref="audio-short-break"
+      :src="'./static/audio/alert-short-break.mp3'"
+    ></audio>
+    <audio
+      id="audio-work"
+      ref="audio-work"
+      :src="'./static/audio/alert-work.mp3'"
+    ></audio>
+    <audio
+      id="audio-tick"
+      ref="audio-tick"
+      :src="'./static/audio/tick.mp3'"
+    ></audio>
+  </div>
+</template>
+<script lang="ts" setup>
+</script>
